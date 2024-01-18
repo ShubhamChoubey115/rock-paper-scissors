@@ -15,11 +15,16 @@
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
+    gap: 1rem;
+    
+  }
+  .choice-display{
+    background-color: rgb(234, 239, 101);
     
   }
   .choices-display img{
     object-fit: cover;
-    border-radius: 50%;
+    
   }
   .choice {
     height: 125px;
@@ -50,22 +55,18 @@
     margin-top: 1rem;
   }
   
-  .score-board {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    margin-top: 1rem;
-    gap: 5rem;
-  }
+
   
   #user-score,
   #comp-score {
     font-size: 4rem;
+    
   }
-  
+  .score{
+    margin-bottom: 1rem;
+  }
   .msg-container {
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
   
   #msg {
@@ -74,6 +75,7 @@
     font-size: 2rem;
     display: inline;
     padding: 1rem;
+    
     border-radius: 1rem;
   }
   #reset-btn{
